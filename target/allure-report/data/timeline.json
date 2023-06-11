@@ -1,1 +1,195 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"orderIsCreated[1]","uid":"f7155c78716ddb5d","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":89},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"courierCanBeCreated","uid":"e182065635448479","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":367},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginIsRequired","uid":"18894601be4d88e5","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":1725},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"sameCourierCannotBeCreated","uid":"5b0f4d496ba51325","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":520},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithWrongPassword","uid":"5ce7f5ef069cc478","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":536},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"passwordIsRequired","uid":"10825344520cee26","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":103},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"orderIsCreated[3]","uid":"d6d31d18f4560e86","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":130},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithWrongLogin","uid":"2f13252f5ae39ee6","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":519},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"courierCanLogin","uid":"bb854f549c2a4215","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":495},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"orderIsCreated[0]","uid":"9715759b4e338ce0","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":113},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"orderIsCreated[2]","uid":"5d7a65ce2969bb33","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":140},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"getOrderTest","uid":"f6fbcc6e0e4d38dc","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":7074},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithoutLogin","uid":"94dbc202994cae86","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":484},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"loginWithoutPassword","uid":"7ac2d1ebb5a0a0ed","parentUid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","status":"passed","time":{"duration":6520},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}]}
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "alexandra",
+    "children" : [ {
+      "name" : "48357@alexandra.main(1)",
+      "children" : [ {
+        "name" : "Нельзя создать курьера, не указав логин",
+        "uid" : "82b6170c0e68a471",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517457649,
+          "stop" : 1686517457872,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация курьера невозможна без логина",
+        "uid" : "ceeb43854dce965c",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517467694,
+          "stop" : 1686517468166,
+          "duration" : 472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация курьера невозможна с неправильным паролем",
+        "uid" : "a92d8a7721948266",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517466578,
+          "stop" : 1686517467138,
+          "duration" : 560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация курьера",
+        "uid" : "cb0132be14aa5a32",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517468584,
+          "stop" : 1686517469173,
+          "duration" : 589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать двух одинаковых курьеров",
+        "uid" : "73c2080845cf6054",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517458022,
+          "stop" : 1686517458578,
+          "duration" : 556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа",
+        "uid" : "d4cb087db0e49ae5",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517466325,
+          "stop" : 1686517466456,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание курьера",
+        "uid" : "17cfa87142b74997",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517451005,
+          "stop" : 1686517457549,
+          "duration" : 6544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа",
+        "uid" : "b59af8de47b8a761",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517466109,
+          "stop" : 1686517466213,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать курьера, не указав пароль",
+        "uid" : "a4f95fcbf079f15f",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517457876,
+          "stop" : 1686517458019,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа",
+        "uid" : "999372065ce8cdc1",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517466217,
+          "stop" : 1686517466323,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация курьера невозможна без пароля",
+        "uid" : "ea80f6b844a1c833",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517468168,
+          "stop" : 1686517468582,
+          "duration" : 414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа",
+        "uid" : "7a2ffb001ffb5f30",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517466458,
+          "stop" : 1686517466572,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Получение списка заказов",
+        "uid" : "fa24ba2c2208aa60",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517458589,
+          "stop" : 1686517466094,
+          "duration" : 7505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация курьера невозможна с неправильным логином",
+        "uid" : "c5a3801e2b342754",
+        "parentUid" : "ac964d209b2b5e61d7b29a21a66950b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686517467142,
+          "stop" : 1686517467692,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac964d209b2b5e61d7b29a21a66950b3"
+    } ],
+    "uid" : "ed73f66c88363da5b5a71ec35a149de5"
+  } ]
+}

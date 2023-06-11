@@ -1,1 +1,70 @@
-{"total":6,"items":[{"uid":"41fe5734357e885d7a787af7045b06c0","name":"test.CreateOrderTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}},{"uid":"4438555a7dc2e3afff84fd6151d47ef9","name":"test.CourierLoginNegativeTests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}},{"uid":"0e223ee0f781ad625bbc3e9740e8d03b","name":"test.CourierCreateNegativeTests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"801edc1cedfb4c89dbf5e990723963d0","name":"test.CourierCreatePositiveTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"6c0c794e14a9187cf38d8ee84f965346","name":"test.CourierLoginPositiveTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"fa1ec94609e6c0d53689004f1d46738d","name":"test.GetOrderTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "68b42a92188f4c9ef82aabf3afd024f1",
+    "name" : "order.CreateOrderTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "3bcf2b74a767305785fbbe720f3415fc",
+    "name" : "courierlogin.CourierLoginNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "050eb246efd460c95a8f755f085467fb",
+    "name" : "couriercreate.CourierCreateNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "29598580987b6087155e784246155aca",
+    "name" : "couriercreate.CourierCreatePositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "00a6350cbba08a6f78b0525bdbeaa1ed",
+    "name" : "order.GetOrderTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "989d59336ab555c173e1f153c22986b0",
+    "name" : "courierlogin.CourierLoginPositiveTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "d4cb087db0e49ae5",
+  "name" : "Создание заказа",
+  "fullName" : "order.CreateOrderTest.orderIsCreated[Цвет самоката. Тестовые данные: [GRAY]]",
+  "historyId" : "e5ff57b85f8f1684719eb8af3e545e3e",
+  "time" : {
+    "start" : 1686517466325,
+    "stop" : 1686517466456,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1686517466325,
+        "stop" : 1686517466446,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "order.Order@14983265"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "order"
+  }, {
+    "name" : "testClass",
+    "value" : "order.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderIsCreated[Цвет самоката. Тестовые данные: [GRAY]]"
+  }, {
+    "name" : "suite",
+    "value" : "order.CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "48357@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4cb087db0e49ae5.json",
+  "parameterValues" : [ ]
+}
