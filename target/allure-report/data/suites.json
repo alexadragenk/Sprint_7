@@ -1,0 +1,211 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "couriercreate.CourierCreatePositiveTest",
+    "children" : [ {
+      "name" : "Создание курьера",
+      "uid" : "17cfa87142b74997",
+      "parentUid" : "29598580987b6087155e784246155aca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517451005,
+        "stop" : 1686517457549,
+        "duration" : 6544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "29598580987b6087155e784246155aca"
+  }, {
+    "name" : "couriercreate.CourierCreateNegativeTests",
+    "children" : [ {
+      "name" : "Нельзя создать курьера, не указав логин",
+      "uid" : "82b6170c0e68a471",
+      "parentUid" : "050eb246efd460c95a8f755f085467fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517457649,
+        "stop" : 1686517457872,
+        "duration" : 223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя создать курьера, не указав пароль",
+      "uid" : "a4f95fcbf079f15f",
+      "parentUid" : "050eb246efd460c95a8f755f085467fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517457876,
+        "stop" : 1686517458019,
+        "duration" : 143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Нельзя создать двух одинаковых курьеров",
+      "uid" : "73c2080845cf6054",
+      "parentUid" : "050eb246efd460c95a8f755f085467fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517458022,
+        "stop" : 1686517458578,
+        "duration" : 556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "050eb246efd460c95a8f755f085467fb"
+  }, {
+    "name" : "order.GetOrderTest",
+    "children" : [ {
+      "name" : "Получение списка заказов",
+      "uid" : "fa24ba2c2208aa60",
+      "parentUid" : "00a6350cbba08a6f78b0525bdbeaa1ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517458589,
+        "stop" : 1686517466094,
+        "duration" : 7505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "00a6350cbba08a6f78b0525bdbeaa1ed"
+  }, {
+    "name" : "order.CreateOrderTest",
+    "children" : [ {
+      "name" : "Создание заказа",
+      "uid" : "b59af8de47b8a761",
+      "parentUid" : "68b42a92188f4c9ef82aabf3afd024f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517466109,
+        "stop" : 1686517466213,
+        "duration" : 104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа",
+      "uid" : "999372065ce8cdc1",
+      "parentUid" : "68b42a92188f4c9ef82aabf3afd024f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517466217,
+        "stop" : 1686517466323,
+        "duration" : 106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа",
+      "uid" : "d4cb087db0e49ae5",
+      "parentUid" : "68b42a92188f4c9ef82aabf3afd024f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517466325,
+        "stop" : 1686517466456,
+        "duration" : 131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа",
+      "uid" : "7a2ffb001ffb5f30",
+      "parentUid" : "68b42a92188f4c9ef82aabf3afd024f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517466458,
+        "stop" : 1686517466572,
+        "duration" : 114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "68b42a92188f4c9ef82aabf3afd024f1"
+  }, {
+    "name" : "courierlogin.CourierLoginNegativeTests",
+    "children" : [ {
+      "name" : "Авторизация курьера невозможна с неправильным паролем",
+      "uid" : "a92d8a7721948266",
+      "parentUid" : "3bcf2b74a767305785fbbe720f3415fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517466578,
+        "stop" : 1686517467138,
+        "duration" : 560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация курьера невозможна с неправильным логином",
+      "uid" : "c5a3801e2b342754",
+      "parentUid" : "3bcf2b74a767305785fbbe720f3415fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517467142,
+        "stop" : 1686517467692,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация курьера невозможна без логина",
+      "uid" : "ceeb43854dce965c",
+      "parentUid" : "3bcf2b74a767305785fbbe720f3415fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517467694,
+        "stop" : 1686517468166,
+        "duration" : 472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Авторизация курьера невозможна без пароля",
+      "uid" : "ea80f6b844a1c833",
+      "parentUid" : "3bcf2b74a767305785fbbe720f3415fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517468168,
+        "stop" : 1686517468582,
+        "duration" : 414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3bcf2b74a767305785fbbe720f3415fc"
+  }, {
+    "name" : "courierlogin.CourierLoginPositiveTest",
+    "children" : [ {
+      "name" : "Авторизация курьера",
+      "uid" : "cb0132be14aa5a32",
+      "parentUid" : "989d59336ab555c173e1f153c22986b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1686517468584,
+        "stop" : 1686517469173,
+        "duration" : 589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "989d59336ab555c173e1f153c22986b0"
+  } ]
+}

@@ -1,0 +1,99 @@
+{
+  "uid" : "a4f95fcbf079f15f",
+  "name" : "Нельзя создать курьера, не указав пароль",
+  "fullName" : "couriercreate.CourierCreateNegativeTests.passwordIsRequired",
+  "historyId" : "2e33e55392c10f40ca66a58935a7fdab",
+  "time" : {
+    "start" : 1686517457876,
+    "stop" : 1686517458019,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация данных курьера без пароля",
+      "time" : {
+        "start" : 1686517457876,
+        "stop" : 1686517457876,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание курьера",
+      "time" : {
+        "start" : 1686517457877,
+        "stop" : 1686517458002,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "courier.Courier@5c16561a"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "couriercreate"
+  }, {
+    "name" : "testClass",
+    "value" : "couriercreate.CourierCreateNegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "passwordIsRequired"
+  }, {
+    "name" : "suite",
+    "value" : "couriercreate.CourierCreateNegativeTests"
+  }, {
+    "name" : "host",
+    "value" : "alexandra"
+  }, {
+    "name" : "thread",
+    "value" : "48357@alexandra.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4f95fcbf079f15f.json",
+  "parameterValues" : [ ]
+}

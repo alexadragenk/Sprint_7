@@ -1,0 +1,141 @@
+[ {
+  "uid" : "ea80f6b844a1c833",
+  "name" : "Авторизация курьера невозможна без пароля",
+  "time" : {
+    "start" : 1686517468168,
+    "stop" : 1686517468582,
+    "duration" : 414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "999372065ce8cdc1",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686517466217,
+    "stop" : 1686517466323,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa24ba2c2208aa60",
+  "name" : "Получение списка заказов",
+  "time" : {
+    "start" : 1686517458589,
+    "stop" : 1686517466094,
+    "duration" : 7505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4f95fcbf079f15f",
+  "name" : "Нельзя создать курьера, не указав пароль",
+  "time" : {
+    "start" : 1686517457876,
+    "stop" : 1686517458019,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb0132be14aa5a32",
+  "name" : "Авторизация курьера",
+  "time" : {
+    "start" : 1686517468584,
+    "stop" : 1686517469173,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4cb087db0e49ae5",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686517466325,
+    "stop" : 1686517466456,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceeb43854dce965c",
+  "name" : "Авторизация курьера невозможна без логина",
+  "time" : {
+    "start" : 1686517467694,
+    "stop" : 1686517468166,
+    "duration" : 472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17cfa87142b74997",
+  "name" : "Создание курьера",
+  "time" : {
+    "start" : 1686517451005,
+    "stop" : 1686517457549,
+    "duration" : 6544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a92d8a7721948266",
+  "name" : "Авторизация курьера невозможна с неправильным паролем",
+  "time" : {
+    "start" : 1686517466578,
+    "stop" : 1686517467138,
+    "duration" : 560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73c2080845cf6054",
+  "name" : "Нельзя создать двух одинаковых курьеров",
+  "time" : {
+    "start" : 1686517458022,
+    "stop" : 1686517458578,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82b6170c0e68a471",
+  "name" : "Нельзя создать курьера, не указав логин",
+  "time" : {
+    "start" : 1686517457649,
+    "stop" : 1686517457872,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b59af8de47b8a761",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686517466109,
+    "stop" : 1686517466213,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a3801e2b342754",
+  "name" : "Авторизация курьера невозможна с неправильным логином",
+  "time" : {
+    "start" : 1686517467142,
+    "stop" : 1686517467692,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a2ffb001ffb5f30",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686517466458,
+    "stop" : 1686517466572,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
